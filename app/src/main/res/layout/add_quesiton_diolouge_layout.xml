@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_diolouge_QuestionEdittextid"
+        android:hint="Enter Question"
+        android:background="@drawable/edit_bg"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textColor="#000"
+
+        />
+
+    <EditText
+        android:layout_below="@+id/question_diolouge_QuestionEdittextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_diolouge_Option1Edittextid"
+        android:hint="Enter Option 1"
+        android:background="@drawable/edit_bg"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_below="@+id/question_diolouge_Option1Edittextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_diolouge_Option2Edittextid"
+        android:hint="Enter Option 2"
+        android:background="@drawable/edit_bg"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_below="@+id/question_diolouge_Option2Edittextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_diolouge_Option3Edittextid"
+        android:hint="Enter Option 3"
+        android:background="@drawable/edit_bg"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_below="@+id/question_diolouge_Option3Edittextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_diolouge_Option4Edittextid"
+        android:hint="Enter Option 4"
+        android:background="@drawable/edit_bg"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_below="@+id/question_diolouge_Option4Edittextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_diolouge_MarksEdittextid"
+        android:hint="Enter Marks"
+        android:background="@drawable/edit_bg"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Answer Number"
+        android:padding="5dp"
+        android:textSize="17sp"
+        android:layout_below="@+id/question_diolouge_MarksEdittextid"
+        android:id="@+id/qtx1"
+        />
+    <Spinner
+       android:background="@drawable/edit_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/qtx1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/question_diolouge_AnswerNumberSpinnerid"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question_diolouge_AnswerNumberSpinnerid"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Save"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:id="@+id/saveQuestionButtonid"
+        android:textSize="17sp"
+        />
+
+
+</RelativeLayout>

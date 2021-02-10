@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctxt1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="Enter Quiz Category Name"
+
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ctxt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_bg"
+        android:padding="10dp"
+        android:hint="Quiz Category Name"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:id="@+id/category_diolouge_CategoryNameEditteXt"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/category_diolouge_CategoryNameEditteXt"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:id="@+id/category_diolouge_SaveButtonId"
+        />
+
+
+
+</RelativeLayout>

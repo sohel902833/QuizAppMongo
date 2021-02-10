@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="10dp"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansquestionSerialNumberTextviewid"
+                android:textSize="14sp"
+                android:text="Question 1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansquestionTextviewid"
+                android:layout_below="@+id/ansquestionSerialNumberTextviewid"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="What is Database Management System?"
+                android:textColor="#000"
+                />
+
+
+            <RadioButton
+                android:layout_below="@+id/ansquestionTextviewid"
+                android:id="@+id/ansquiz_radio_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 1"
+                android:textColor="#000"
+                android:freezesText="true"/>
+
+            <RadioButton
+                android:layout_below="@+id/ansquiz_radio_button1"
+                android:id="@+id/ansquiz_radio_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 2"
+                  android:textColor="#000"
+                android:freezesText="true"/>
+
+            <RadioButton
+                android:layout_below="@+id/ansquiz_radio_button2"
+                android:id="@+id/ansquiz_radio_button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 3"
+                android:textColor="#000"
+                android:freezesText="true"/>
+            <RadioButton
+                android:layout_below="@+id/ansquiz_radio_button3"
+                android:id="@+id/ansquiz_radio_button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 3"
+                android:textColor="#000"
+                android:freezesText="true"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ansquiz_radio_button4"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:id="@+id/noteTextviewid"
+            />
+
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
